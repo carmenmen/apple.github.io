@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/* Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* End of reset */
+
+body {
+  font-family: Work Sans;
+  font-size: 32px;
+  line-height: 1.5;
+  background: #000000;
+  color: #ffffff;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
+}
+
+.holder div {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.slide-1 {
+  background-image: url(./assets/1.png);
+}
+
+.slide-2 {
+  background-image: url(./assets/2.png);
+}
+
+.slide-3 {
+  background-image: url(./assets/3.png);
+}
+
+.slide-4 {
+  background-image: url(./assets/4.png);
+}
+
+.slide-5 {
+  background-image: url(./assets/5.png);
+}
+
+.slide-6 {
+  background-image: url(./assets/6.png);
+}
+
+.slide-7 {
+  background-image: url(./assets/7.png);
+}
+
+.slide-8 {
+  background-image: url(./assets/8.png);
+}
+
+.slide-9 {
+  background-image: url(./assets/9.png);
+}
+
+.slide-10 {
+  background-image: url(./assets/10.png);
+}
+
+.slide-11 {
+  background-image: url(./assets/11.png);
+}
+
+.slide-12 {
+  background-image: url(./assets/12.png);
+}
+
+.slide-13 {
+  background-image: url(./assets/13.png);
+}
+
+.slide-14 {
+  background-image: url(./assets/14.png);
+}
+
+.slide-15 {
+  background-image: url(./assets/15.png);
+}
+
+.slide-16 {
+  background-image: url(./assets/16.png);
+}
+
+.slide-17 {
+  background-image: url(./assets/17.png);
+}
+
+.steps {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: white;
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
